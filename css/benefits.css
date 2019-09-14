@@ -1,0 +1,70 @@
+
+
+.slick-slide {
+  outline: none !important;
+}
+
+.two-cols {
+  width: 800px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.benefits-slide h3 {
+  margin: 20px auto;
+}
+
+.pros,
+.cons {
+  text-align: left;
+  list-style-type: none;
+}
+
+.pros li,
+.cons li {
+  margin: 5px 0;
+}
+
+.cons li:before,
+.pros li:before {
+  content: "+";
+  background: #fff;
+  display: inline-block;
+  border-radius: 100%;
+  width: 0.9em;
+  height: 0.9em;
+  text-align: center;
+  line-height: 1;
+  color: green;
+  margin-right: 5px;
+}
+
+.cons li:before {
+  content: "-";
+  color: red;
+  line-height: 0.8;
+}
+
+#benefits {
+  background: url(../images/eating.jpg) center top no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.slick-benefits {
+  margin: 50px auto;
+}
+
+#benefits .slick-prev,
+#benefits .slick-next {
+  font-size: 2.5em;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: all .3s ease;
+  opacity: .6;
+}
+
+#benefits .slick-prev:hover,
+#benefits .slick-next:hover {
+  opacity: 1;
+}

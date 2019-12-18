@@ -1,5 +1,3 @@
-
-
 .slick-slide {
   outline: none !important;
 }
@@ -28,11 +26,9 @@
 .cons li:before,
 .pros li:before {
   content: "+";
-  background: #fff;
   display: inline-block;
-  border-radius: 100%;
-  width: 0.9em;
-  height: 0.9em;
+  width: 1em;
+  height: 1em;
   text-align: center;
   line-height: 1;
   color: green;
@@ -42,21 +38,14 @@
 .cons li:before {
   content: "-";
   color: red;
-  line-height: 0.8;
-}
-
-#benefits {
-  background: url(../images/eating.jpg) center top no-repeat;
-  background-size: cover;
-  color: #fff;
 }
 
 .slick-benefits {
   margin: 50px auto;
 }
 
-#benefits .slick-prev,
-#benefits .slick-next {
+#feeding .slick-prev,
+#feeding .slick-next {
   font-size: 2.5em;
   margin: 0 20px;
   cursor: pointer;
@@ -64,7 +53,7 @@
   opacity: .6;
 }
 
-#benefits .slick-prev:hover,
-#benefits .slick-next:hover {
+#feeding .slick-prev:hover,
+#feeding .slick-next:hover {
   opacity: 1;
 }
